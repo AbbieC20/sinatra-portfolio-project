@@ -1,0 +1,11 @@
+<h2> Home Page </h2>
+<h3><i> Please take a look through the below records and see what you & others are recording! </i></h3>
+<br>
+<div class="records">
+<% @records.each do |record| %>
+    <%= record.name %><br>
+    <%= record.location %>
+    <br><br>
+<% end %>
+</div>
+<h3> <a href="/records/new"> Click here to add something new </h3>

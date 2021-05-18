@@ -1,0 +1,20 @@
+<h3>Edit this Track Record</h3>
+
+<div class="form">
+<form action="/records/<%= @record.slug %>" method="POST">
+    <input id="hidden" type="hidden" name="_method" value="patch">
+    <input type="text" name="name" value="<%= @record.name %>">
+    <input type="text" name="location" value="<%= @record.location %>">
+    <input type="text" name="category" value="<%= @record.category %>">
+    <input type="text" name="notes" value="<%= @record.notes %>">
+    <input id="submit" type="submit" value="Edit Record">
+</form>
+</div>
+
+
+
+
+
+
+
+

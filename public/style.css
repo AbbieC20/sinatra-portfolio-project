@@ -1,0 +1,101 @@
+html, body, .full-screen-container {
+    min-height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.full-screen-container {
+    background: linear-gradient(90deg,#E8CBC0, #636FA4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(51, 49, 49);
+    font-weight: 9850;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(85, 83, 83);
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: rgb(68, 66, 66);
+    font-size: 22px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.welcomemessage {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.records {
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: rgb(68, 66, 66);
+  font-size: 20px;
+}
+
+input[type=submit] {
+  display: inline-block;
+  font-size: 28px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: rgb(76, 119, 161);
+  background: none;
+  border: none;
+}
+
+input[type=submit]:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(76, 119, 161);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(76, 119, 161);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
