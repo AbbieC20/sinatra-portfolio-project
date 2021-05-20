@@ -7,9 +7,8 @@
   <p>Extra Notes:  <%= @record.notes %></p>
 </div>
 <br>
+<h4><i>If you are the creator of this record, then you will be able to Edit and Delete. </i></h4>
 <h3> <a href="/records/<%= @record.slug %>/edit"> Click here to edit this record </h3>
-<br>
-
 <div class="form">
 <form method="post" action="/records/<%= @record.slug %>/delete">
   <input id="hidden" type="hidden" name="_method" value="delete">

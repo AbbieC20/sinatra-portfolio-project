@@ -9,8 +9,14 @@
   <body>
     <div class="full-screen-container">
       <h1>Off the Beaten Track</h1>
+      <% if logged_in? %>
+        <a class="fixed_links" href="/logout"> Logout </a>
+        <a class="fixed_links" href="/records"> Home </a>
+      <% end %>
 
       <%= yield %>
     </div>
+
   </body>
 </html>
+

@@ -3,9 +3,9 @@
 <br>
 <div class="records">
 <% @records.each do |record| %>
-    <%= record.name %><br>
+    <a class="small" href="/records/<%= record.slug %>"><%= record.name %></a><br>
     <%= record.location %>
     <br><br>
 <% end %>
 </div>
-<h3> <a href="/records/new"> Click here to add something new </h3>
+<h3> <a href="/records/new"> Click here to add something new </a></h3>
